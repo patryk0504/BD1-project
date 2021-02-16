@@ -1,0 +1,234 @@
+.img{
+    margin-top: -50px;
+    height: 400px;
+    /* background-image: url('../images/omlet_cesarski_z_truskawkami.jpg'); */
+}
+header{
+    height: 5%;
+}
+.topnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    background-color: #17252A;
+    overflow: hidden;
+}
+
+.topnav ul li {
+    display: inline;
+    margin: auto;
+    padding: 15px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.spacer{
+    margin-bottom: 110px;
+    visibility: hidden; 
+  }
+
+footer {
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #17252A;
+
+    color: white;
+    text-align: center;
+}
+
+.container{ 
+    display: flex; 
+    /* margin-left: 19%; */
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.center{
+    display: block;
+    text-align: center;
+}
+
+.centerTable{
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+.content{
+    margin-top: 50px;
+}
+
+
+.title{
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 120px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    text-align: center;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* margin: auto; */
+}
+
+.opis{
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: 700px;
+}
+
+.skladniki {
+    width: 576px; /*140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+
+    border-collapse: collapse;
+    /* border: 1px solid black; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* width: max-content; */
+    margin-right: 5px;
+}
+
+.skladniki tbody, .skladniki thead tr { display: block; }
+
+.skladniki tbody {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.skladniki tbody td, .skladniki thead th {
+    width: 140px;
+    /* width: 180px; */
+    padding: 12px 15px;
+    text-align: center;
+
+
+}
+
+.skladniki thead th:last-child {
+    width: 560px;
+    /* width: 196px; */
+}
+
+.skladniki tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.skladniki tr th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    text-align: center;
+} 
+
+#wartosci{
+    width: 576px; /*140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+
+    border-collapse: collapse;
+    /* border: 1px solid black; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* width: max-content; */
+    margin-right: 5px;
+    margin-top:4em;
+}
+
+#wartosci tbody, #wartosci thead tr { display: block; }
+
+#wartosci tbody {
+    height: 50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#wartosci tbody td, #wartosci thead th {
+    width: 140px;
+    /* width: 180px; */
+    padding: 12px 15px;
+    text-align: center;
+}
+#wartosci thead th:last-child {
+    width: 560px;
+}
+
+#wartosci tr th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    text-align: center;
+} 
+
+#sprawdzSkladniki {
+    width: 1276px; /*140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+
+    border-collapse: collapse;
+    /* border: 1px solid black; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* width: max-content; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #sprawdzSkladniki tbody, #sprawdzSkladniki thead tr { display: block; } */
+
+#sprawdzSkladniki tbody {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sprawdzSkladniki tbody td, #sprawdzSkladniki thead th {
+    width: 140px;
+    /* width: 180px; */
+    padding: 12px 15px;
+    text-align: center;
+
+
+}
+
+#sprawdzSkladniki thead th:last-child {
+    
+    width: 196px;
+}
+
+#sprawdzSkladniki tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#sprawdzSkladniki tr th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    text-align: center;
+} 
