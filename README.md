@@ -10,3 +10,7 @@ Basic functionalities:
 * obtaining recipe proposals from selected ingredients,
 * management of the assortment which is available in your kitchen,
 * management of users and partnership stores.
+
+Some screenshot:
+
+![admin_homepage](https://github.com/patryk0504/kitchen-advisor/blob/main/dokumentacja/homepage.jpg?raw=true)
