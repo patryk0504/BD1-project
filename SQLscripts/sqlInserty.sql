@@ -606,3 +606,37 @@ update skladnik set iddostawca = 2 where idskladnik > 100 and idskladnik <= 114;
 
 
 insert into uzytkownik (login, pass, imie, nazwisko, isadmin) values ('admin','admin','adminIMIE','adminNAZWISKO',true);
+
+
+-- linki do zdjec przepisow
+
+select * from setval('proj_v1.skladnik_idskladnik_seq', COALESCE((SELECT MAX(s.idskladnik)+1 FROM proj_v1.skladnik s), 1), false);
+
+update przepis set image_link = '../images/omlet_cesarski_z_truskawkami.jpg' where idprzepis = 1;
+update przepis set image_link = '../images/owsianka_z_maslem_orzechowym.jpg' where idprzepis = 2;
+update przepis set image_link = '../images/hummus_z_burakiem.jpg' where idprzepis = 3;
+update przepis set image_link = '../images/pasta_cukinia.jpg' where idprzepis = 4;
+update przepis set image_link = '../images/jajecznica-z-szynka-i-szpinakiem.jpg' where idprzepis = 5;
+update przepis set image_link = '../images/wytrawne-muffiny-z-kurczakiem-i-szpinakiem.jpg' where idprzepis = 6;
+update przepis set image_link = '../images/ryz_smazony_z_kurczakiem_po_meksykansku_.jpg' where idprzepis = 7;
+update przepis set image_link = '../images/kartoflanka-z-łososiem.jpg' where idprzepis = 8;
+update przepis set image_link = '../images/zupa_krem_z_soczewicy_z_mlekiem_kokosowym.jpg' where idprzepis = 9;
+update przepis set image_link = '../images/klopsiki_z_kalafiora.jpg' where idprzepis = 10;
+update przepis set image_link = '../images/tajska_zupa_z_kurczakiem.jpg' where idprzepis = 11;
+update przepis set image_link = '../images/enchiladas-z-wolowina.jpg' where idprzepis = 12;
+update przepis set image_link = '../images/kokosowy-kurczak-w-slodkim-sosie-chili.jpg' where idprzepis = 13;
+update przepis set image_link = '../images/wloska_salatka_ziemniaczana.jpg' where idprzepis = 14;
+update przepis set image_link = '../images/chia_pudding.jpg' where idprzepis = 15;
+update przepis set image_link = '../images/boczek_z_baklazana.jpg' where idprzepis = 16;
+update przepis set image_link = '../images/kanapka_z_szynka_parmenska_pomidorem_brie.jpg' where idprzepis = 17;
+update przepis set image_link = '../images/kaszotto_botwinkowe_z_chorizo.jpg' where idprzepis = 18;
+update przepis set image_link = '../images/owoce_zapiekane_pod_kruszonka.jpg' where idprzepis = 19;
+update przepis set image_link = '../images/nachos.jpg' where idprzepis = 20;
+update przepis set image_link = '../images/bruschetta.jpg' where idprzepis = 21;
+update przepis set image_link = '../images/weganskie_muffiny_z_jablkami.jpg' where idprzepis = 22;
+update przepis set image_link = '../images/jajka_faszerowane_suszonymi_pomidorami_feta.jpg' where idprzepis = 23;
+update przepis set image_link = '../images/placki-z-dyni.jpg' where idprzepis = 24;
+update przepis set image_link = '../images/brownie_z_fasoli.jpg' where idprzepis = 25;
+update przepis set image_link = '../images/mango_sticky_rice.jpg' where idprzepis = 26;
+update przepis set image_link = '../images/rolada_szpinakowa_z_wedzonym_lososiem.jpg' where idprzepis = 27;
+update przepis set image_link = '../images/pudding_ryzowy_z_cynamonem.jpg' where idprzepis = 28;
